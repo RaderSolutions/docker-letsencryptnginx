@@ -14,4 +14,3 @@ RUN for f in `grep -l certbot /etc/cont-init.d/*` ;\
 
 
 ## Inherit entrypoint from base
-
