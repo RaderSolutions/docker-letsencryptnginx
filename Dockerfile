@@ -11,6 +11,6 @@ RUN for f in `grep -l certbot /etc/cont-init.d/*` ;\
        done
 
 
-
+copy custom-cont-init.d/ /config/custom-cont-init.d/
 
 ## Inherit entrypoint from base
