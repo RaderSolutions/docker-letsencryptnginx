@@ -12,6 +12,6 @@ ENV VALIDATION http
 ##       done
 
 
-copy custom-cont-init.d/ /config/custom-cont-init.d/
+copy etc/ /etc/
 
 ## Inherit entrypoint from base
