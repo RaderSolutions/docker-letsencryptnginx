@@ -12,6 +12,4 @@ ENV VALIDATION http
 ##       done
 
 
-copy config/ /config/
-
 ## Inherit entrypoint from base
