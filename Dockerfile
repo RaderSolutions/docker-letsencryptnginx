@@ -11,5 +11,6 @@ ENV VALIDATION http
 ##         mv $f.bak /tmp ;\
 ##       done
 
-
+## echo to make entrypoint be respected?
+RUN echo test
 ## Inherit entrypoint from base
