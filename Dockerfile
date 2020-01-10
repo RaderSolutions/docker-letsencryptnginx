@@ -3,6 +3,9 @@ FROM linuxserver/letsencrypt:latest
 # force http validation
 ENV VALIDATION http
 
+# remove lua modules for clean docker logs
+RUN rm -Rf /etc/nginx/modules/*lua*
+
 ## add a pause if cert creation fails, to avoid container restart loop quickly using all authorization attempts
 ## no longer needed, as upstream implemented this
 ## RUN for f in `grep -l certbot /etc/cont-init.d/*` ;\
