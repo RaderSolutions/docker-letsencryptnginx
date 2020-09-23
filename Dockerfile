@@ -1,4 +1,4 @@
-FROM linuxserver/letsencrypt:latest
+FROM linuxserver/swag:latest
 
 # force http validation
 ENV VALIDATION http
