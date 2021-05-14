@@ -1,4 +1,5 @@
-FROM linuxserver/swag:latest
+#FROM linuxserver/swag:latest
+FROM linuxserver/swag:1.14.0
 
 # force http validation
 ENV VALIDATION http
